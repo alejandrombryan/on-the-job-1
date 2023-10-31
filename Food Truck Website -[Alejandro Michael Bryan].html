@@ -16,6 +16,8 @@
 
         footer,
         h1,
+        h3,
+        h4,
         h2,
         address,
         li,
@@ -24,6 +26,12 @@
             background-color: antiquewhite;
             display: inline-block;
             padding: 5px;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+            color: orangered;
         }
     </style>
 
@@ -39,13 +47,19 @@
         </nav>
         <!-- Nav ends here -->
     </div>
-
+    <img src="food1.png" alt="Delicious Wrap" title="The Number 8">
     <div>
-        <h1>Fibonacci's Food Truck and Restaurant</h1>
+        <h1>Fibonacci's Food Truck and Restaurant</h1><br>
+        <img src="logo.png" alt="Fibonacci's Food Truck and Restaurant Logo">
         <br><br>
     </div>
 
-    <div>
+    <div id="About">
+        <style>
+            #About p {
+                color: rgb(90, 0, 0)
+            }
+        </style>
         <h2>About Us</h2>
 
         <p>What's so great about a mathematician from the Middle Ages? Fibonacci
@@ -68,10 +82,74 @@
             sense of humor everywhere else.
         </p>
         <br>
+        <img src="grill.jpg" alt="Chicken cooking on a grill">
+        <br>
     </div>
 
-    <h2>The Fibonacci's Quarterly Menu</h2>
-    <br>
+    <section id="Menu">
+        <style>
+            h4 {
+                color: rgb(161, 0, 0);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #Menu p {
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(90, 0, 0);
+            }
+        </style>
+        <div>
+            <h2 style="font-family:'Courier New', Courier, monospace; color:orangered;">The Fibonacci's Quarterly Menu
+            </h2>
+            <br>
+        </div>
+        <h3 style="font-family:Verdana, Geneva, Tahoma, sans-serif; color:rgba(255, 0, 0, 0.801);">Wraps</h3>
+        <br>
+        <div>
+            <h4>The Number 1</h4><br>
+            <p>Buffalo chicken, romaine lettuce, tomatoes, carrots, ranch, blue cheese</p>
+        </div>
+        <div>
+            <h4>The Other Number 1</h4><br>
+            <p>Vegetarian. Hummus, romaine lettuce, sun-dried tomatoes, Kalamata olives, feta cheese, tzatziki sauce</p>
+        </div>
+        <div>
+            <h4>The Number 2</h4><br>
+            <p>Jalapeno tortilla, turkey chili, onions, cheddar cheese, avocado</p>
+        </div>
+        <div>
+            <h4>The Number 3</h4><br>
+            <p>Smoked salmon, cream cheese, cucumber, dill, and baby spinach</p>
+        </div>
+        <div>
+            <h4>The Number 5</h4><br>
+            <p>Marinated pork, pickled carrots, cucumber, cilantro, mint, fresno chiles, mayonnaise</p>
+        </div>
+        <div>
+            <h4>The Number 8</h4><br>
+            <p>Vegetarian. Falafel, red onion, romaine lettuce, tomato, and tzatziki sauce</p>
+        </div>
+        <p>* All wraps, except The Number 2 are served on your choice of flour
+            or corn tortilla.</p><br>
+        <h3 style="font-family:Verdana, Geneva, Tahoma, sans-serif; color:rgba(255, 0, 0, 0.801);">Sides</h3><br>
+        <div>
+            <h4>Sequence Fries</h4><br>
+            <p>Just a side of fries</p>
+        </div>
+        <div>
+            <h4>Cheese Fries</h4><br>
+            <p>Fries topped with havarti and dill cheese, pastrami, Russian dressing, pickled onions and peppers,
+                pickled jalapeno</p>
+        </div>
+        <div>
+            <h4>Golden Ratio</h4><br>
+            <p>Fries topped with turkey chili and queso blanco</p>
+        </div>
+        <div>
+            <h4>Consecutive Chips</h4><br>
+            <p>Tortilla chips and salsa verde</p>
+        </div>
+    </section>
 
     <div>
         <h2>The Mathematician's Favorites</h2>
